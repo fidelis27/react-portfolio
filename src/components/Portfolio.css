@@ -1,0 +1,29 @@
+.img-portfolio{
+   display:inline-block;
+   padding: 10px;
+}
+.img-portfolio img{
+ 
+   width: 300px;
+   height: 400px;
+   align-content: center;
+   align-items: center;
+   text-align: center;
+}
+
+
+.img-portfolio   h5 {
+   
+   font: 14px/21px 'opensans-bold', sans-serif;
+   color: rgb(53, 52, 52);
+   text-align: center;
+}
+.img-portfolio   p {
+   display: block;
+   font: 12px/18px 'opensans-light', sans-serif;
+   color: rgb(53, 52, 52);
+   text-align: justify;
+   
+}
+
+

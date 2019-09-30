@@ -1,0 +1,49 @@
+#contact {
+    background: #191919;
+    padding-top: 96px;
+    padding-bottom: 102px;
+    padding-left: 15px;
+    color: #636363;
+ }
+
+ #contact .section-head { margin-bottom: 42px; }
+ 
+#contact a, #contact a:visited  { color: #11ABB0; }
+#contact a:hover, #contact a:focus { color: #fff; }
+
+#contact h3 {
+   display: block;
+   font: 18px/24px 'opensans-bold', sans-serif;
+   text-transform: uppercase;
+   letter-spacing: 3px;
+   color: #EBEEEE;
+   margin-bottom: 6px;
+   text-align: left;
+   width: auto;
+}
+#contact h1 span { display: none; }
+#contact h1:before {
+   font-family: 'FontAwesome';
+   content: "\f0e0";
+	padding-right: 10px;
+	font-size: 72px;
+   line-height: 72px;
+   text-align: left;
+   float: left;
+   color: #ebeeee;
+}
+.widget{
+   display: inline-block;
+   text-align: left;
+}
+.widget h5 {
+   
+   display: inline-block;
+}
+#contact p.lead {
+   font: 18px/36px 'opensans-light', sans-serif;
+   padding-right: 3%;
+}
+#contact .header-col { padding-top: 6px; }
+
+

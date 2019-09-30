@@ -1,0 +1,105 @@
+
+#resume {
+    background: #fff;
+    padding-top: 90px;
+    padding-bottom: 72px;
+    overflow: hidden;
+ }
+ 
+ #resume a, #resume a:visited  { color: #11ABB0; }
+ #resume a:hover, #resume a:focus { color: #313131; }
+ 
+ #resume h1 {
+    font: 18px/24px 'opensans-bold', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+ }
+ #resume h1 span {
+    border-bottom: 3px solid #11ABB0;
+    padding-bottom: 6px;
+ }
+ #resume h3 {
+    font: 25px/30px 'opensans-bold', sans-serif;
+ }
+ 
+ #resume .header-col { padding-top: 10px; padding-right: 10px; align-content: center;}
+ #resume .main-col { padding-right: 10%; padding: 0; }
+ 
+ .education, .work {
+    margin-bottom: 48px;
+    padding-bottom: 24px;
+    border-bottom: 1px solid #E8E8E8;
+ }
+ #resume .info {
+    font: 16px/24px 'librebaskerville-italic', serif;
+    color: #6E7881;
+    margin-bottom: 18px;
+    margin-top: 9px;
+ }
+ #resume .info span {
+    margin-right: 5px;
+    margin-left: 5px;
+ }
+ #resume .date {
+    font: 15px/24px 'opensans-regular', sans-serif;
+    margin-top: 6px;
+ }
+ 
+.item{    
+    display: inline-block;
+    width: 150px; 
+    height: 150px;   
+    margin:5;
+    overflow: hidden;
+    align-content: center;
+    align-items: center;
+    text-align: center;
+   
+    
+}
+.item a {
+   text-align: center;}
+
+.skill{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.row{
+    display: inline-block;
+    flex-wrap: wrap;
+    width: 100%;
+}
+
+h2{
+    
+    text-align: center;
+    width: auto;
+    display: inline-flexbox;
+}
+header .social li a:hover { color: #11ABB0; }
+
+
+.fontsize{
+    font-size:15px; }
+
+.item img{
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        align-content: center;
+      align-items: center;
+      text-align: center;
+}
+.conquer {
+   display: inline-block;
+   align-content: center;
+   align-items: center;
+   padding: 20px;
+}
+.conquer img{
+   display: block;
+   width: 500px;
+   height: 500px;
+   text-align: center;
+}
