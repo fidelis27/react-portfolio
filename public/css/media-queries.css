@@ -370,14 +370,67 @@
    /* social links */
    footer .social-links { font-size: 20px; }
    footer .social-links li { margin-left: 14px; }   
-
+   .banner h1{
+      font-size: 30px!important;
+   }
    .conquer img{
       display: block;
-      width: 200px;
-      height: 200px;
+      width: 250px!important;
+      height: 250px!important;
       text-align: left;
       padding: 0;
       margin: 0;
+   }
+   .conquer h1,h2{
+      display: inline-block;
+      text-align: center;
+      font-size: 15px!important;
+   }
+   .education  h3{
+      font-size: 15px!important;
+      display: inline-block;
+      text-align: center;
+      padding-left: 3px;
+      
+   }
+   .education p {
+      font-size: 12px!important;
+      display: inline-block;
+      text-align: center;
+
+   }
+   #portfolio  h1{
+      font-size: 15px!important;
+      display: inline-block;
+      text-align: center;
+      padding-left: 3px;
+      
+   }
+   .work  h3{
+      font-size: 15px!important;
+      display: inline-block;
+      text-align: center;
+      padding-left: 3px;
+      
+   }
+   .work  p{
+      font-size: 12px!important;
+      display: inline-block;
+      text-align: center;
+      padding-left: 3px;
+      
+   }
+   .skill h2,h3{
+      font-size: 15px!important;
+      display: inline-block;
+      text-align: center;
+      padding-left: 3px;
+   }
+   .skill p{
+      font-size: 12px!important;
+      display: inline-block;
+      text-align: center;
+      padding-left: 3px;
    }
 
 }
