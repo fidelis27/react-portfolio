@@ -79,12 +79,12 @@ export default class Resume extends Component {
 
             <div className="container">
               <div className="row col-lg-12 ">
-                <div className="col-lg-3 col-sm-6 item">
+                <div className="col-lg-3 col-sm-6 col-xs-6 item">
                   <div className="img">
                     <img src={LogoHmtl}></img><span className="title"><h4>HTML5</h4></span>
                   </div>
                 </div>
-                <div className="col-lg-3 col-sm-6 item">
+                <div className="col-lg-3 col-sm-6 col-xs-6 item">
                   <div className="img">
                     <a><img src={LogoReact}></img></a><h4>React JS</h4>
                   </div>

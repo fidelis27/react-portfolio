@@ -28,7 +28,7 @@ export default class About extends Component {
 
                   
                   <p className="address">
-       						<span>Nartural</span>
+       						<span>Natural</span>
                      <br></br>
        						   <span>
                      {resumeData.address}

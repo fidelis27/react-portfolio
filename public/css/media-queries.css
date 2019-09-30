@@ -350,10 +350,10 @@
 
    /* header styles
    -------------------------------------------------------------------- */
-   header .banner { padding-top: 24px; }
+   
    header .banner-text h1 {
-      font: 40px/1.1em 'opensans-bold', sans-serif;      
-      margin: 0 auto 24px auto;
+      font: 22px/1.1em 'opensans-bold', sans-serif;      
+      margin: 0 auto 12px auto;
    }
    header .banner-text h3 {
       font: 14px/1.9em 'librebaskerville-regular', sans-serif;
@@ -373,6 +373,10 @@
    .banner h1{
       font-size: 30px!important;
    }
+
+    #about p{
+       padding-left: 15px!important;
+    }
    .conquer img{
       display: block;
       width: 250px!important;
@@ -431,6 +435,18 @@
       display: inline-block;
       text-align: center;
       padding-left: 3px;
+   }
+   .item img {
+      padding: 0 0 0 10px!important;
+      width: 50px!important;
+      height: 50px!important;
+   }
+   .widget h5{
+      font-size: 15px;
+      
+   }
+   #resume h3{
+      padding-left: 15px;
    }
 
 }
