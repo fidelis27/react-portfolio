@@ -341,7 +341,8 @@
 /* mobile narrow
   -------------------------------------------------------------------------- */
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 580px) {
+   *{padding:20px}
 
    /* mobile navigation
    -------------------------------------------------------------------- */
@@ -369,6 +370,15 @@
    /* social links */
    footer .social-links { font-size: 20px; }
    footer .social-links li { margin-left: 14px; }   
+
+   .conquer img{
+      display: block;
+      width: 200px;
+      height: 200px;
+      text-align: left;
+      padding: 0;
+      margin: 0;
+   }
 
 }
 
