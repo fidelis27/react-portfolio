@@ -9,7 +9,7 @@ export default class Header extends Component {
       <header id="home">
          <nav id="nav-wrap">
           <a className="mobile-btn" href="#nav-wrap" title="Show navigation">Show navigation</a>
-          <a className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
+          <a type ="button"className="mobile-btn" href="#" title="Hide navigation">Hide navigation</a>
             <ul id="nav" className="nav">
                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
                <li><a className="smoothscroll" href="#about">Sobre</a></li>
@@ -27,10 +27,10 @@ export default class Header extends Component {
                <hr/>
                <ul className="social">
                   {
-                    resumeData.socialLinks && resumeData.socialLinks.map(item =>{
+                    resumeData.socialLinks && resumeData.socialLinks.map((item,index )=>{
                       return(
-                              <li key={item.name}>
-                                <a href={item.url} target="_blank"><i className={item.className}></i></a>
+                              <li key={index}>
+                                <a rel="noopener noreferrer" href={item.url} target="_blank"><i className={item.className}></i></a>
                               </li>
                             )
                           }

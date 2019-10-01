@@ -9,10 +9,10 @@ export default class Footer extends Component {
         <div className="col-lg-12 columns">
           <ul className="social-links">
             {
-              resumeData.socialLinks && resumeData.socialLinks.map((item)=>{
+              resumeData.socialLinks && resumeData.socialLinks.map((item,index)=>{
                 return(
-                  <li>
-                    <a target="_blank" href={item.url}>
+                  <li key={index}>
+                    <a rel="noopener noreferrer"target="_blank" href={item.url}>
                     <i className={item.className} />
                     
                     </a>

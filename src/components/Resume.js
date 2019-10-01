@@ -21,9 +21,9 @@ export default class Resume extends Component {
 
           <div className="col-lg-9 columns main-col">
             {
-              resumeData.education && resumeData.education.map((item) => {
+              resumeData.education && resumeData.education.map((item,index) => {
                 return (
-                  <div className="row item">
+                  <div key={index} className="row item">
                     <div className="col-lg-12 columns">
                       <h3>{item.UniversityName}</h3>
                       <p className="info">
@@ -46,9 +46,9 @@ export default class Resume extends Component {
 
           <div className="col-lg-9 columns main-col">
             {
-              resumeData.work && resumeData.work.map((item) => {
+              resumeData.work && resumeData.work.map((item,index) => {
                 return (
-                  <div className="row item">
+                  <div key={index} className="row item">
                     <div className="col-lg-12 columns">
                       <h3>{item.CompanyName}</h3>
                       <p className="info">
@@ -81,22 +81,22 @@ export default class Resume extends Component {
               <div className="row col-lg-12 ">
                 <div className="col-lg-3 col-sm-6 col-xs-6 item">
                   <div className="img">
-                    <img src={LogoHmtl}></img><span className="title"><h4>HTML5</h4></span>
+                    <img  alt="htmllogo" src={LogoHmtl}></img><span className="title"><h4>HTML5</h4></span>
                   </div>
                 </div>
                 <div className="col-lg-3 col-sm-6 col-xs-6 item">
                   <div className="img">
-                    <a><img src={LogoReact}></img></a><h4>React JS</h4>
+                    <img alt ="reactlogo"src={LogoReact}></img><h4>React JS</h4>
                   </div>
                 </div>
                 <div className=" col-lg-3 col-sm-6 item">
                   <div className="img">
-                    <img src={LogoJS}></img><span className="title"><h4>JavaScript</h4></span>
+                    <img alt ="logojs"src={LogoJS}></img><span className="title"><h4>JavaScript</h4></span>
                   </div>
                 </div>
                 <div className="col-lg-3 col-sm-6 item">
                   <div className="img">
-                    <a><img src={LogoCss3}></img></a><h4>CSS3</h4>
+                    <img alt="logocss3"src={LogoCss3}></img><h4>CSS3</h4>
                   </div>
                 </div>
 
@@ -116,7 +116,7 @@ export default class Resume extends Component {
             <div className="col-lg-12 col-sm-12">
               <h2><span>Conquistas Digital innovation one</span></h2>
               <div className="img conquer">
-                <a><img src={LogoConquer}></img></a>
+                <img alt ="logoconquer"src={LogoConquer}></img>
               </div>
             </div>
           </div>
