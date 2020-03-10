@@ -22,7 +22,7 @@ let resumeData = {
         }
 
       ],
-    "aboutme":"Sou Formado pela Fatec Taquaritinga, porém não atuo na área, estou buscando entrar no mercado de T.I. Já fiz diversos cursos voltados pra web, na udemy e Digital Innovation One. Convido-os(as) a conhecer o meu peril.",
+    "aboutme":"Sou Formado pela Fatec Taquaritinga, porém não atuo na área, estou buscando entrar no mercado de T.I. Já fiz diversos cursos voltados pra web, na udemy e Digital Innovation One. Convido-os(as) a conhecer o meu perfil.",
     "address":"Taquaritinga-SP",
     "website":"",
     "education":[
