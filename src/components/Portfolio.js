@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './Portfolio.css'
-import BancoDev from '../assets/images/bancoDev.png'
+import Aircnc from '../assets/images/login.jpg'
 import Series from '../assets/images/series.png'
 
 export default class Porfolio extends Component {
@@ -13,15 +13,31 @@ export default class Porfolio extends Component {
           <div className="col-lg-12">
             <div className="col-lg-4 col-sm-6 img-portfolio">
 
-              <a rel="noopener noreferrer" href="https://bancodev-front.herokuapp.com/" title="app banco do Dev" target="_blank"><img alt="bancodev" src={BancoDev}></img></a>
-              <h3>Banco do Dev REACT</h3>
-              <p>App desenvolvido com React e banco de dados MongoDB.
-                 Neste app fui capaz de explorar CRUD e status do component em react.
+              <a rel="noopener noreferrer" href="https://user-images.githubusercontent.com/45233696/76228318-54791e80-61ff-11ea-9572-3ac815424808.jpg" title="app banco do Dev" target="_blank"><img alt="bancodev" src={Aircnc}></img></a>
+              <h3>Aircnc</h3>
+              <p>App desenvolvido com React no bootcamp 09 da Rockeseat.
                 </p>
-              <a className="btn btn-primary" type="button" rel="noopener noreferrer" href="https://bancodev-front.herokuapp.com/" title="app banco do Dev" target="_blank">ver</a>
+              <a className="btn btn-primary" type="button"
+                rel="noopener noreferrer" href="https://github.com/fidelis27/FrontEnd-Aircnc/"
+                title="Aircnc front" target="_blank">FrontEnd</a>
+              <a className="btn btn-primary" type="button"
+                rel="noopener noreferrer" href="https://github.com/fidelis27/BackEnd-Aircnc"
+                title="Aircnc back" target="_blank">BackEnd</a>
             </div>
             <div className="col-lg-4 col-sm-6 img-portfolio">
 
+              <a rel="noopener noreferrer" 
+              href="https://user-images.githubusercontent.com/45233696/76267523-dbeb7f80-6249-11ea-89f0-aaaba4179432.png" title="app banco do Dev" target="_blank"><img alt="bancodev" src={BancoDev}></img></a>
+              <h3>Portfólio</h3>
+              <p>Portfólio desenvolvido em React.
+                </p>
+              <a className="btn btn-primary" type="button"
+                rel="noopener noreferrer" href="https://github.com/fidelis27/react-portfolio"
+                title="Portfólio" target="_blank">código</a>
+              
+            </div>
+
+            <div className="col-lg-4 col-sm-6 img-portfolio">
               <a href="https://frontend-series-app.herokuapp.com/" rel="noopener noreferrer" title="app Gerenciar séries" target="_blank"><img alt="series" src={Series}></img></a>
               <h3>Series app REACT</h3>
               <p>App desenvolvido com React e banco de dados MongoDB.
