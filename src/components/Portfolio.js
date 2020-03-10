@@ -24,18 +24,7 @@ export default class Porfolio extends Component {
                 rel="noopener noreferrer" href="https://github.com/fidelis27/BackEnd-Aircnc"
                 title="Aircnc back" target="_blank">BackEnd</a>
             </div>
-            <div className="col-lg-4 col-sm-6 img-portfolio">
-
-              <a rel="noopener noreferrer" 
-              href="https://user-images.githubusercontent.com/45233696/76267523-dbeb7f80-6249-11ea-89f0-aaaba4179432.png" title="app banco do Dev" target="_blank"><img alt="bancodev" src={BancoDev}></img></a>
-              <h3>Portfólio</h3>
-              <p>Portfólio desenvolvido em React.
-                </p>
-              <a className="btn btn-primary" type="button"
-                rel="noopener noreferrer" href="https://github.com/fidelis27/react-portfolio"
-                title="Portfólio" target="_blank">código</a>
-              
-            </div>
+            
 
             <div className="col-lg-4 col-sm-6 img-portfolio">
               <a href="https://frontend-series-app.herokuapp.com/" rel="noopener noreferrer" title="app Gerenciar séries" target="_blank"><img alt="series" src={Series}></img></a>
