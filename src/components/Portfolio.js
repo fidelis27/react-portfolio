@@ -11,9 +11,9 @@ export default class Porfolio extends Component {
         <h1 className="text-center">Confira alguns de meus projetos</h1>
         <div className="row">
           <div className="col-lg-12">
-            <div className="col-lg-4 col-sm-6 img-portfolio">
+            <div className=" img-portfolio">
 
-              <a rel="noopener noreferrer" href="https://user-images.githubusercontent.com/45233696/76228318-54791e80-61ff-11ea-9572-3ac815424808.jpg" title="app banco do Dev" target="_blank"><img alt="bancodev" src={Aircnc}></img></a>
+              <a rel="noopener noreferrer" href="https://user-images.githubusercontent.com/45233696/76228318-54791e80-61ff-11ea-9572-3ac815424808.jpg" title="Aircnc" target="_blank"><img alt="bancodev" src={Aircnc}></img></a>
               <h3>Aircnc</h3>
               <p>App desenvolvido com React no bootcamp 09 da Rockeseat.
                 </p>
@@ -26,7 +26,7 @@ export default class Porfolio extends Component {
             </div>
             
 
-            <div className="col-lg-4 col-sm-6 img-portfolio">
+            <div className="img-portfolio">
               <a href="https://frontend-series-app.herokuapp.com/" rel="noopener noreferrer" title="app Gerenciar séries" target="_blank"><img alt="series" src={Series}></img></a>
               <h3>Series app REACT</h3>
               <p>App desenvolvido com React e banco de dados MongoDB.
