@@ -9,7 +9,7 @@ import resumeData from './resumeData';
 import './App.css'
 
 import 'bootstrap/dist/css/bootstrap.min.css'
-import 'fontawesome'
+import 'fontawesome/'
 
 class App extends Component {
   render() {
@@ -19,7 +19,6 @@ class App extends Component {
         <About resumeData={resumeData}/>
         <Resume resumeData={resumeData}/>
         <Portfolio resumeData={resumeData}/>
-        {/* <Testimonials resumeData={resumeData}/> */}
         <ContactUs resumeData={resumeData}/>
         <Footer resumeData={resumeData}/>
       </div>

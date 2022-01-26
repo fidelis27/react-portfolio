@@ -1,38 +1,34 @@
 #about {
-   background: #2B2B2B;
-   padding-top: 96px;
-   padding-bottom: 66px;
-   overflow: hidden;
- }
+  background: #2b2b2b;
+  padding-top: 96px;
+  padding-bottom: 66px;
+  overflow: hidden;
+}
 
- 
- #about a, #about a:visited  { color: #fff; }
- #about a:hover, #about a:focus { color: #11ABB0; }
- 
- #about h2 {
-    font: 22px/30px 'opensans-bold', sans-serif;
-    color: #fff;
-    margin-bottom: 12px;
-    text-align: left;
-    margin-bottom: 12px;
-   
- }
- #about p {
-    line-height: 30px;
-    color: #7a7a7a;
-    text-align: left;
-    
-    
-     }
- .profile-pic {
-   position: relative;
-   width: 160px;
-   height: 160px;
-   border-radius: 100%;
-    
- }
- #about .main-col { padding-right: 5%; }
- #about .contact-details { width: 100%; margin: 0}
- 
+#about h2 {
+  font: 3rem "Roboto", sans-serif;
+  color: #fff;
+  margin-bottom: 1.2rem;
+  text-align: left;
+  margin-bottom: 1.2rem;
+  font-weight: bold;
+}
 
- 
+#about p {
+  line-height: 30px;
+  font-size: 2rem;
+  font-weight: normal;
+  color: #cec9c9;
+  text-align: left;
+}
+
+.profile-pic {
+  position: relative;
+  width: 160px;
+  height: 160px;
+  border-radius: 100%;
+}
+#about .main-col {
+  padding-right: 5%;
+}
+

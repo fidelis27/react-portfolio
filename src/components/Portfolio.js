@@ -8,7 +8,7 @@ export default class Porfolio extends Component {
     /* let resumeData = this.props.resumeData; */
     return (
       <section id="portfolio">
-        <h1 className="text-center">Confira alguns de meus projetos</h1>
+        <h1 className="text-center">Check out some of my projects</h1>
         <div className="row">
           <div className="col-lg-12">
             <div className=" img-portfolio">
@@ -32,7 +32,7 @@ export default class Porfolio extends Component {
               <p>App desenvolvido com React e banco de dados MongoDB.
                  Neste app fui capaz de explorar CRUD e status do component em react.
                    </p>
-              <a className="btn btn-primary" type="button" rel="noopener noreferrer" href="https://frontend-series-app.herokuapp.com/" title="app banco do Dev" target="_blank">ver</a>
+              <a className="btn btn-primary" type="button" rel="noopener noreferrer" href="https://frontend-series-app.herokuapp.com/" title="app banco do Dev" target="_blank">Vizualizar</a>
             </div>
           </div>
         </div>

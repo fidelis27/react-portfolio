@@ -10,7 +10,7 @@
  #resume a:hover, #resume a:focus { color: #313131; }
  
  #resume h1 {
-    font: 18px/24px 'opensans-bold', sans-serif;
+    font: 18px/24px 'Roboto', sans-serif;
     text-transform: uppercase;
     letter-spacing: 1px;
  }
@@ -19,11 +19,11 @@
     padding-bottom: 6px;
  }
  #resume h3 {
-    font: 25px/30px 'opensans-bold', sans-serif;
+   font-size: 2.8rem;
  }
  
  #resume .header-col { padding-top: 10px; padding-right: 10px; align-content: center;}
- #resume .main-col { padding-right: 10%; padding: 0; }
+ #resume .main-col { padding-right: 10%; }
  
  .education, .work {
     margin-bottom: 48px;
@@ -31,7 +31,7 @@
     border-bottom: 1px solid #E8E8E8;
  }
  #resume .info {
-    font: 16px/24px 'librebaskerville-italic', serif;
+    font-size: 1.8rem;
     color: #6E7881;
     margin-bottom: 18px;
     margin-top: 9px;
@@ -41,9 +41,12 @@
     margin-left: 5px;
  }
  #resume .date {
-    font: 15px/24px 'opensans-regular', sans-serif;
+   font-size: 1.8rem;
+   font-weight: normal;
     margin-top: 6px;
  }
+
+ 
  
 .item{    
     display: inline-block;
@@ -69,6 +72,12 @@
     display: inline-block;
     flex-wrap: wrap;
     width: 100%;
+}
+
+.row .container {
+   margin: 10rem 4rem;
+   display: flex;
+   flex-direction: column;
 }
 
 h2{
@@ -99,7 +108,7 @@ header .social li a:hover { color: #11ABB0; }
 }
 .conquer img{
    display: block;
-   width: 500px;
-   height: 500px;
+   width: 60rem;
+   height: 50rem;
    text-align: center;
 }

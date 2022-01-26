@@ -58,25 +58,26 @@ footer {
 	left: 50%;
 	margin-left: -30px;
  }
+ 
  #go-top a {
-	 text-decoration: none;
-	 border: 0 none;
-	 display: block;
-	 width: 60px;
-	 height: 60px;
-	 background-color: #525252;
- 
-	 -webkit-transition: all 0.2s ease-in-out;
-	-moz-transition: all 0.2s ease-in-out;
-	-o-transition: all 0.2s ease-in-out;
-	-ms-transition: all 0.2s ease-in-out;
-	transition: all 0.2s ease-in-out;
- 
+	position: absolute;
+	bottom: -3.6rem;
+	left: 50%;
+	margin-left: -29px;
 	color: #fff;
-	font-size: 21px;
-	line-height: 60px;
-	  border-radius: 100%;
+	display: block;
+	height: 42px;
+	width: 42px;
+	font-size: 42px;
+	line-height: 42px;
+	color: #fff;
+	border-radius: 100%;
+	background-color: #161415;
+	-webkit-transition: all .3s ease-in-out;
+	-moz-transition: all .3s ease-in-out;
+	-o-transition: all .3s ease-in-out;
+	transition: all .3s ease-in-out;
  }
- #go-top a:hover { background-color: #0F9095; }
+ #go-top a:hover { color: #11ABB0; }
  
  

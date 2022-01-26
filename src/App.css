@@ -1,11 +1,3 @@
-@import url("assets/css/fonts.css");
-@import url("assets/css/fontello/css/fontello.css");
-@import url("assets/css/font-awesome/css/font-awesome.min.css");
-
-
-html,body{
-  margin: 0;
-}
 .App {
   text-align: center;
 }
@@ -18,7 +10,7 @@ body { background: #0f0f0f; }
 
 #nav-wrap > a.mobile-btn { display: none; }
 #nav-wrap {
-  font: 11px 'opensans-bold', sans-serif;
+  font: 11px 'Roboto', sans-serif; 
   letter-spacing: 1.5px;
 }
 

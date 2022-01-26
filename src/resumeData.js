@@ -1,9 +1,8 @@
 let resumeData = {
     "imagebaseurl":"https://static.vagas.com.br/fotoscandidatos/64034975/thumb_e14e5eadac1a9c38232cf5efec1a3879c029f91afed077e98566bd226e410dbd.jpg",
-    "name": "Eu sou Thiago Fidelis",
-    "role": "Dev FullStack ",
+    "hello": "Hi there!",
     "linkedinId":"https://www.linkedin.com/in/fidelis27",
-    "roleDescription": "Focado em aprender várias tecnlogias tanto do FrontEnd como no BackEnd. Gosto de programar no meu tempo livre.",
+    "roleDescription": "My name is Thiago Fidelis! I'm a Mid Software Engineer | FrontEnd | React",
     "socialLinks":[
         {
           "name":"linkedin",
@@ -15,27 +14,27 @@ let resumeData = {
           "url":"http://github.com/fidelis27",
           "className":"fa fa-github"
         },{
-          "name":"github",
-          "url":"http://github.com/fidelis27",
+          "name":"whatsapp",
+          "url":"https://api.whatsapp.com/send?phone=5516991021581",
           "className":"fab fa-whatsapp-square"
           
         }
 
       ],
-    "aboutme":"Sou Formado pela Fatec Taquaritinga, porém não atuo na área, estou buscando entrar no mercado de T.I. Já fiz diversos cursos voltados pra web, na udemy e Digital Innovation One. Convido-os(as) a conhecer o meu perfil.",
+    "aboutme":"I currently work at invillia and work within the PagSeguro partner. I invite you to know my profile.",
     "address":"Taquaritinga-SP",
     "website":"",
     "education":[
       {
-        "UniversityName":"Faculdade de Tecnologia de Taquaritinga",
-        "specialization":"Tecnólogo",
-        "MonthOfPassing":"Análise e Desenvolvimento de Sistemas",
+        "UniversityName":"Faculty of Technology of Taquaritinga",
+        "specialization":"Technologist",
+        "MonthOfPassing":"Analysis and systems development",
         "YearOfPassing":"2011 -2014",
         
       },
       {
-        "UniversityName":"Certificações Digital innovation one",
-        "specialization":"Diversas tecnologias",
+        "UniversityName":"Digital innovation one certifications",
+        "specialization":"Various technologies",
         "MonthOfPassing":"",
         "YearOfPassing":"2019",
         
@@ -43,10 +42,10 @@ let resumeData = {
     ],
     "work":[
       {
-        "CompanyName":"Fundação Casa ",
-        "specialization":"Agente de Segurança",
-        "MonthOfLeaving":"Julho",
-        "YearOfLeaving":"2011"
+        "CompanyName":'Nov 2020/present - <strong><a target="_blank" href="https://invillia.com/" rel="nofollow">Invillia</a></strong>',
+        "specialization":"FrontEnd developer",
+        "MonthOfLeaving":"november",
+        "YearOfLeaving":"2020"
       }
     ],
     "skillsDescription":"MINHAS TECNOLOGIAS",
